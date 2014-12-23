@@ -1,3 +1,5 @@
+// This was a mismatch of help from multiple tutorials. 
+
 var context;
 var source, sourceJs;
 var analyser;
@@ -60,10 +62,6 @@ request.onload = function() {
 			alert("Uh oh!" + error);
 		}
 	);
-};
-
-request.onerror = function() {
-	alert("Buffer: XHR error");
 };
 
 request.send();
