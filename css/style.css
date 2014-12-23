@@ -1,0 +1,21 @@
+body {
+	cursor:pointer;
+	background-color:black;
+}
+
+#play {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: none;
+}
+
+#play-button{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 64px;
+	width: 64px;
+	background: url('../images/play.png') left center no-repeat transparent;
+}
